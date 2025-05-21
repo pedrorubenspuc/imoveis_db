@@ -1,0 +1,82 @@
+{
+  "estado": [
+    { "id": 1, "nome": "São Paulo" },
+    { "id": 2, "nome": "Rio de Janeiro" }
+  ],
+  "cidade": [
+    { "id": 1, "id_estado": 1, "name": "São Paulo" },
+    { "id": 2, "id_estado": 2, "name": "Rio de Janeiro" }
+  ],
+  "usuario": [
+    { "id": 1, "name": "João Silva", "senha": "123456", "email": "joao@email.com", "telefone": "11999999999" },
+    { "id": 2, "name": "Maria Souza", "senha": "abcdef", "email": "maria@email.com", "telefone": "21988888888" }
+  ],
+  "imovel": [
+    {
+      "id": 1,
+      "id_usuario": 1,
+      "id_cidade": 1,
+      "id_estado": 1,
+      "endereco": "Rua A, 123",
+      "qtd_quartos": 3,
+      "qtd_banheiros": 2,
+      "valor_imovel": 500000,
+      "valor_condominio": 450,
+      "areas_lazer": ["Piscina", "Academia"],
+      "tipo_imovel": "Apartamento",
+      "tipo_locacao": "Venda",
+      "metragem_imovel": 85,
+      "vaga_garagem": 1,
+      "flg_mobiliado": true,
+      "flg_aceitaPet": true,
+      "fotos": "img1.jpg",
+      "descricao": "Apartamento bem localizado com ótima vista."
+    },
+    {
+      "id": 2,
+      "id_usuario": 2,
+      "id_cidade": 2,
+      "id_estado": 2,
+      "endereco": "Av. Central, 456",
+      "qtd_quartos": 2,
+      "qtd_banheiros": 1,
+      "valor_imovel": 350000,
+      "valor_condominio": 300,
+      "areas_lazer": ["Salão de Festas"],
+      "tipo_imovel": "Casa",
+      "tipo_locacao": "Aluguel",
+      "metragem_imovel": 65,
+      "vaga_garagem": 2,
+      "flg_mobiliado": false,
+      "flg_aceitaPet": false,
+      "fotos": "img2.jpg",
+      "descricao": "Casa aconchegante em bairro tranquilo."
+    }
+  ],
+  "historico": [
+    {
+      "id": 1,
+      "id_usuario": 1,
+      "id_imovel": 2,
+      "data_visitada": "2025-05-20T14:30:00"
+    },
+    {
+      "id": 2,
+      "id_usuario": 2,
+      "id_imovel": 1,
+      "data_visitada": "2025-05-18T10:00:00"
+    }
+  ],
+  "favorito": [
+    {
+      "id": 1,
+      "id_usuario": 1,
+      "id_imovel": 1
+    },
+    {
+      "id": 2,
+      "id_usuario": 2,
+      "id_imovel": 2
+    }
+  ]
+}
