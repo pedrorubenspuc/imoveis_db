@@ -236,5 +236,9 @@
       "id_usuario": 2,
       "id_imovel": 2
     }
+  ],
+  "login": [
+  ],
+  "verify-token": [
   ]
 }
