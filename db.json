@@ -169,14 +169,14 @@
     { "id": 1, "name": "João Silva", "senha": "123456", "email": "joao@email.com", "telefone": "11999999999", "like": 10, "deslike": 2, "informações": "informações teste" },
     { "id": 2, "name": "Maria Souza", "senha": "abcdef", "email": "maria@email.com", "telefone": "21988888888", "like": 15, "deslike": 2, "informações": "informações teste" },
     {
-    "name": "Luiz Felipe",
-    "senha": "chaves123",
-    "email": "luizfelipe.dasilva@gmail.com",
-    "id": 3,
-    "like": 4,
-    "deslike": 2,
-    "informações": "preencher com um update",
-  }
+      "id": 3,
+      "name": "Luiz Felipe",
+      "senha": "chaves123",
+      "email": "luizfelipe.dasilva@gmail.com",
+      "like": 4,
+      "deslike": 2,
+      "informações": "preencher com um update"
+    }
   ],
   "imovel": [
     {
